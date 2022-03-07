@@ -67,10 +67,10 @@ func main() {
 				}
 			}
 
-			fmt.Println("allowed domains:")
-			for _, item := range allowed_domains {
-				fmt.Println("   " + item)
-			}
+			// fmt.Println("allowed domains:")
+			// for _, item := range allowed_domains {
+			// 	fmt.Println("   " + item)
+			// }
 
 			// Instantiate default collector
 			c := colly.NewCollector(
